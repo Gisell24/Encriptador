@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="es ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200;1,300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="contenedor">
+    <header>
+      <div class="caja">
+        <img class="ti-3" src="fondos/ti.3.png">
+        <h1 class="titulo">Encriptador de Texto</h1>
+        <img class="logo" src="fondos/logo.png" alt="Logo de ALura">
+        <img class="balon" src="fondos/balongi.gif">
+      </div>
+
+
+
+    </header>
+
+    <main>
+      <section class="principal">
+        <img class="mascota" src="fondos/mascotacopa.gif">
+        <h2 class="minusculas">🚫Solo Letras Minúsculas y sin acentos</h2>
+
+        <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui">
+    </textarea>
+        <div class="botones">
+          <button class="encriptar" onclick="btnEncriptar()">Encriptar
+          </button>
+          <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar
+          </button>
+          <div>
+            <img class="mundo" src="fondos/Mundo_hecho_de_Banderas.gif" alt="mundo">
+
+          </div>
+        </div>
+
+      </section>
+
+      <section="principal">
+        <textarea class="mensaje" cols="18" rows="8">
+          </textarea>
+        <button class="copiar" onclick="copiar()">Copiar
+        </button>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+
+      <p class="copyright">©Created by Gisell Mata/Alura Latam</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
